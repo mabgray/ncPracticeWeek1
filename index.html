@@ -23,10 +23,11 @@
                     <img src="img/logo.png" class="img-fluid" />
                  </div>
                 <div class="col">
-            
-
             <h1>NuCamp</h1>
             <h2>a better way to camp</h2>
+            </div>
+            <div class="col-md-4 col-xl-2 mt-4">
+                <a href="#reserveForm"><button class=" btn btn-info btn-lg">Reserve Campsite</button></a>
             </div>
         </div>
         </div>
@@ -67,10 +68,15 @@
         <h2 class="text-sm-right">Featured Campsites</h2>
     </div>
     <div class="col">
-        <h3>React Lake Campground</h3>
-        <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+        <div class="media">
+            <div class="media-body align-self-center">
+                <h3>React Lake Campground</h3>
+                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+            </div>
+            <img src="img/react-lake-thumb.jpg" class="d-flex mr-3 img-thumbnail" alt="image of lake">
+        </div>
     </div>
-    </div>
+  </div>
 
     <div class="row row-content  align-items-center">
         <div class="col col-sm-4  order-sm-last col-md-3">
@@ -93,7 +99,7 @@
                 <h3 class="bg-info text-white">Reserve a Campsite</h3>
             </div>
             <div class="card-body">
-                <form>
+                <form id="reserveForm">
                     <div class="form-group row">
                         
                         <label  class="col-sm-6 col-form-label" for="numCampers" >Number of Campers</label>
